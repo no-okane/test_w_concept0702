@@ -1,0 +1,11 @@
+/* 767~320 */
+@media screen and (max-width:797px) {
+    main > .top {padding: 80px 15px 15px;}
+    main > .top .container .content_wrap .right {display: none;}
+    main > .top .container .content_wrap .left {width: 400px; height: 458px;}
+
+    main > .bottom {padding: 15px 15px;}
+    main > .bottom .container .product_list2 {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: 1fr 1fr 1fr; gap:5px;}
+    main > .bottom .container .product_list2 .product {width: 130px;}
+    main > .bottom .container .product_list2 .product a img {width: 130px;}
+}
